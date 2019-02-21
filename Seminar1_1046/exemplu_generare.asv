@@ -1,0 +1,19 @@
+function [] = exemplu_generare(m, n, x, y)
+
+%generarea matrice aleatoare cu m linii si n coloane
+%distributia uniforma pe [x, y]
+
+a = unifrn(x, y, m, n);
+fitness = zeros(m, 1);
+
+for i = 1 : m 
+    for k = 1 : n
+        fitness(i) = fitness(i) + a(i, k) ^ 2;
+    end
+end
+
+%determinarea populatiei prin concatenarea matricei cu coloana fitness
+populatie = [a fitness];
+
+end
+

@@ -1,0 +1,17 @@
+function [] = seminar1(matrice)
+
+%incarcarea matricei
+a1 = load(matrice);
+disp('Matricea citita este: ');
+disp(a1);
+
+
+%functia size
+%primul nr de linii, dupa nr de coloane
+%daca nu ma intereseaza nr de coloane pun ~
+[L, ~] = size(a1);
+
+%incarcarea vectorului din fisier
+v = load(vector
+end
+
