@@ -9,4 +9,4 @@ cmax = 45; %costul maxim admis
 Pop_init = gen_pop(dim, cost, val, n, cmax);
 
 %Tema afisati valoarea celui mai bun individ
-%cititi valorile pt cost si val din fisere txt
+%cititi valorile pt cost si val din fisere txt 
