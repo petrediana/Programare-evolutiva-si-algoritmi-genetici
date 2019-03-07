@@ -6,4 +6,4 @@ cmax = 45; %costul maxim admis
 
 
 %generez populatia 
-Pop_init = gen_pop(dim, cost, val, n, cmax);
+Pop_init = gen_pop(dim, cost, val, n, cmax); 
