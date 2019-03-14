@@ -9,3 +9,4 @@ for j = 1 : n %pt fiecare obiect
 end
 OK  = c <= cmax;
 end
+ 
