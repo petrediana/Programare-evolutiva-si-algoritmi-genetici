@@ -1,0 +1,8 @@
+function [] = tema(cost, val, dim, cmax)
+v_cost = load(cost);
+v_val = load(val);
+n = length(v
+
+Pop_init = gen_pop(dim, v_cost, v_val, n, cmax); 
+end
+
