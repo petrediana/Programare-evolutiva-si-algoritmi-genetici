@@ -8,4 +8,4 @@ for j = 1 : n %pt fiecare obiect
     c = c+ sir(j) * cost(j);
 end
 OK  = c <= cmax;
-end
+end 
