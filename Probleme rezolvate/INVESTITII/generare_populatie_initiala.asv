@@ -1,0 +1,5 @@
+function [ Populatie ] = generare_populatie_initiala( suma_d )
+
+
+end
+
