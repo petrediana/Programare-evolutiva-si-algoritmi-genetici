@@ -1,0 +1,17 @@
+function [ OK ] = este_fezabil( individ, matrice_cost_pachete)
+    
+    %stochez in matrice_cost_pachete cat ma costa(in grame) din fiecare
+    %fruct pentru fiecare pachet
+    
+    smochine_total = 0;
+    ananas_total = 0;
+    curmale_total = 0;
+    merisor_total = 0;
+    
+    for i = 1:5
+        smochine_total = smochine_total + individ(1) * matrice_cost_pachete(i, 1); 
+        ananas_total = ananas_total + individ(2) * matrice_cost_pachete(i, 2);
+        curmale_total = curmale_total + individ(3) * matrice_cost_pachete(i, 3);
+        merisor_total = merisor_total + individ(4) *matrice_cost_pachete(i, 4);
+end
+
