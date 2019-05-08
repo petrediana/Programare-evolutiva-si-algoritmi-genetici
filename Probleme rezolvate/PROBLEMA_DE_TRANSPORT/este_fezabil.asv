@@ -1,0 +1,8 @@
+function [ OK ] = este_fezabil( individ )
+    
+    OK = true;
+    if individ(1) + individ(4) <
+
+
+end
+

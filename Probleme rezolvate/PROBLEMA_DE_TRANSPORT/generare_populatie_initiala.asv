@@ -1,0 +1,15 @@
+function [ Populatia ] = generare_populatie_initiala( nr_indivizi )
+    
+    Populatia = zeros(nr_indivizi, 6 + 1);
+    i = 1;
+    while i < nr_indivizi
+        individ_curent = zeros(1, 6);
+        individ_curent = unidrnd(121, 1, 3) - 1;
+        %fabrica din bucuresti poate produce doar 120 de tone
+        %pun 121 la unidrnd apoi scad 1 => poate produce si 0 astfel
+        individ_curent = unidrnd(
+        
+
+
+end
+
